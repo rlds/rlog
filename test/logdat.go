@@ -8,7 +8,7 @@
 package main
 
 import(
-    "../../rlog"
+    "github.com/rlds/rlog"
 	"time"
 )
 

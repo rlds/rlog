@@ -18,7 +18,6 @@
 		1BB02EF11E57E83600AA0BA6 /* loglevel.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loglevel.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
 		1BB02EF21E57EA7E00AA0BA6 /* logbuf.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logbuf.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
 		1BB02EF31E57EB0D00AA0BA6 /* logstat.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logstat.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
-		1BB02EF41E57FA1200AA0BA6 /* plog._go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plog._go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
 		1BB02EF51E58425A00AA0BA6 /* loginit.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loginit.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
 		1BB02EF61E58465700AA0BA6 /* loging.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loging.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
 		1BB02EFC1E5BEACB00AA0BA6 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
@@ -32,7 +31,6 @@
 				1BB02EFA1E5BEA2500AA0BA6 /* bin */,
 				1BB02EF61E58465700AA0BA6 /* loging.go */,
 				1BB02EF51E58425A00AA0BA6 /* loginit.go */,
-				1BB02EF41E57FA1200AA0BA6 /* plog._go */,
 				1BB02EF31E57EB0D00AA0BA6 /* logstat.go */,
 				1BB02EF21E57EA7E00AA0BA6 /* logbuf.go */,
 				1BB02EF11E57E83600AA0BA6 /* loglevel.go */,
