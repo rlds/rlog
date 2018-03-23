@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1B3327EF1F94D3B700F07D28 /* remove_log_file.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = remove_log_file.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1B83E0301E9B98D6007979B9 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		1BB02EE91E55595A00AA0BA6 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		1BB02EEA1E55595A00AA0BA6 /* rlog_file.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rlog_file.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EEB1E55595A00AA0BA6 /* rlog_txt_log.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rlog_txt_log.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EEC1E55694E00AA0BA6 /* rlog_json_log.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rlog_json_log.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EEF1E5579B300AA0BA6 /* logdat.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logdat.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EF01E5703C200AA0BA6 /* json_logbuf.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_logbuf.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EF11E57E83600AA0BA6 /* loglevel.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loglevel.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EF21E57EA7E00AA0BA6 /* logbuf.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logbuf.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EF31E57EB0D00AA0BA6 /* logstat.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logstat.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EF41E57FA1200AA0BA6 /* plog._go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plog._go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EF51E58425A00AA0BA6 /* loginit.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loginit.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EF61E58465700AA0BA6 /* loging.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loging.go; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.go; };
+		1BB02EFC1E5BEACB00AA0BA6 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1BB02EDE1E55465000AA0BA6 = {
+			isa = PBXGroup;
+			children = (
+				1B3327EF1F94D3B700F07D28 /* remove_log_file.go */,
+				1BB02EFA1E5BEA2500AA0BA6 /* bin */,
+				1BB02EF61E58465700AA0BA6 /* loging.go */,
+				1BB02EF51E58425A00AA0BA6 /* loginit.go */,
+				1BB02EF41E57FA1200AA0BA6 /* plog._go */,
+				1BB02EF31E57EB0D00AA0BA6 /* logstat.go */,
+				1BB02EF21E57EA7E00AA0BA6 /* logbuf.go */,
+				1BB02EF11E57E83600AA0BA6 /* loglevel.go */,
+				1BB02EF01E5703C200AA0BA6 /* json_logbuf.go */,
+				1BB02EED1E55790900AA0BA6 /* test */,
+				1BB02EEC1E55694E00AA0BA6 /* rlog_json_log.go */,
+				1BB02EE91E55595A00AA0BA6 /* readme.md */,
+				1BB02EEA1E55595A00AA0BA6 /* rlog_file.go */,
+				1BB02EEB1E55595A00AA0BA6 /* rlog_txt_log.go */,
+			);
+			sourceTree = "<group>";
+		};
+		1BB02EED1E55790900AA0BA6 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				1B83E0301E9B98D6007979B9 /* makefile */,
+				1BB02EEF1E5579B300AA0BA6 /* logdat.go */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		1BB02EFA1E5BEA2500AA0BA6 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				1BB02EFC1E5BEACB00AA0BA6 /* makefile */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1BB02EE31E55465000AA0BA6 /* rlog */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "build $(ACTION)";
+			buildConfigurationList = 1BB02EE61E55465000AA0BA6 /* Build configuration list for PBXLegacyTarget "rlog" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/go/bin/go;
+			dependencies = (
+			);
+			name = rlog;
+			passBuildSettingsInEnvironment = 1;
+			productName = rlog;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1BB02EDF1E55465000AA0BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "吴道睿";
+				TargetAttributes = {
+					1BB02EE31E55465000AA0BA6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1BB02EE21E55465000AA0BA6 /* Build configuration list for PBXProject "rlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BB02EDE1E55465000AA0BA6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BB02EE31E55465000AA0BA6 /* rlog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1BB02EE41E55465000AA0BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1BB02EE51E55465000AA0BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		1BB02EE71E55465000AA0BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GOPATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BB02EE81E55465000AA0BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GOPATH = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BB02EE21E55465000AA0BA6 /* Build configuration list for PBXProject "rlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB02EE41E55465000AA0BA6 /* Debug */,
+				1BB02EE51E55465000AA0BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BB02EE61E55465000AA0BA6 /* Build configuration list for PBXLegacyTarget "rlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB02EE71E55465000AA0BA6 /* Debug */,
+				1BB02EE81E55465000AA0BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BB02EDF1E55465000AA0BA6 /* Project object */;
+}
